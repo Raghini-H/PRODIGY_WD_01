@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Creative Landing Page</title>
+    <style>
+        /* Base Styling for Body */
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: rgba(245, 198, 207, 0.9);
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Navigation Menu */
+        #navbar {
+            position: fixed;
+            width: 100%;
+            background-color: #3f0505;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        #navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        #navbar li {
+            margin: 0 15px;
+        }
+
+        #navbar a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        #navbar a:hover, .active {
+            color: #FF5722; /* Bright Orange for active and hover states */
+        }
+
+        /* Services Section */
+        .services-section {
+            height: 67vh;
+            padding: 60px;
+            text-align: center;
+        }
+
+        .services-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .services-section .service-item {
+            margin-bottom: 30px;
+        }
+
+        .services-section .service-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .services-section p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #3f0505;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <h2>Services</h2>
+        
+        <div class="service-item">
+            <h3>Web Development</h3>
+            <p>Ceate custom, responsive, and user-friendly websites for business needs.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Responsive Landing Page. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
